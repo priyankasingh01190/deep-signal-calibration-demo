@@ -1,0 +1,26 @@
+# --- Environment ---
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- Participant data: NEVER commit (GDPR / purpose limitation) ---
+data/raw/
+data/processed/
+data/reference/reference_set_real.csv
+
+# Loose artifacts from the NLP session that contain response text or IDs
+reference_set_30.csv
+sentiment_Q40_concerns_AI.csv
+text_mining_summary.json
+
+# Anything explicitly marked real
+*_real.csv
+*_raw.csv
+
+# Real-data run outputs carry per-response IDs (individual-level, not aggregate) — keep local.
+# The aggregate real outputs (summary_*_real.md, figures/*_real.png) have no IDs and are kept.
+results/runs/*reference_set_real*/
+
+# Real code sidecar (per-response IDs) — keep local
+data/reference/real_codes.json

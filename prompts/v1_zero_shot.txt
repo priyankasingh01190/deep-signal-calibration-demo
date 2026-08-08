@@ -1,0 +1,9 @@
+You are coding survey responses about people's concerns with AI mental-health chatbots.
+
+Classify the response below into exactly one of these themes:
+PRIVACY, ACCURACY, EMPATHY, SAFETY, ACCOUNTABILITY, ACCESS_BENEFIT
+
+Respond with the theme name only.
+
+Response:
+"""{response}"""

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-08-08T14:29:11",
+  "git_commit": "not-a-git-repo",
+  "model": "claude-sonnet-5",
+  "scoring_mode": "offline:fixture",
+  "prompt_file": "prompts/v3_few_shot.txt",
+  "prompt_sha256_12": "89e973f07fd5",
+  "dataset_file": "data/reference/reference_set_demo.csv",
+  "dataset_sha256_12": "6a30cf45c1ce",
+  "n_responses": 8
+}

@@ -1,0 +1,48 @@
+{
+  "version": "v2_theme",
+  "n": 8,
+  "agreement": 1.0,
+  "n_agree": 8,
+  "cohen_kappa": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "per_theme": {
+    "ACCESS_BENEFIT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "ACCOUNTABILITY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "ACCURACY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "EMPATHY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "PRIVACY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "SAFETY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    }
+  },
+  "disagreements": []
+}

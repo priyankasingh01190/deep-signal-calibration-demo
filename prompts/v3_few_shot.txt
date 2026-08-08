@@ -1,0 +1,43 @@
+You are coding open-ended survey responses about people's expectations and concerns
+regarding AI mental-health chatbots. Assign the SINGLE DOMINANT theme.
+
+Themes and definitions:
+- PRIVACY — data confidentiality/security: leaks, hacking, selling or storing personal data.
+- ACCURACY — the advice/information is wrong, made up, generic, inconsistent, or ineffective.
+- EMPATHY — cannot genuinely feel/understand or connect; impersonal; misses non-verbal cues;
+  people need human connection.
+- SAFETY — harm to vulnerable users: reinforcing harmful behaviour, missing/escalating a
+  crisis, triggering, unhealthy dependency, danger to life.
+- ACCOUNTABILITY — lacks clinical training, qualification, regulation, oversight, or authority.
+- ACCESS_BENEFIT — a POSITIVE point: cheap, free, 24/7, no waiting list, fast, non-judgemental.
+- OTHER — substantive content fitting none of the above.
+
+Tie-break rules (apply in order):
+1. If the respondent names a "main concern" or puts one concern first, code THAT.
+2. This is a concerns question: if both a benefit and a concern appear, code the CONCERN
+   (do not code ACCESS_BENEFIT just because a positive is mentioned in passing).
+3. "Wrong advice" → ACCURACY if the emphasis is wrongness; SAFETY if the emphasis is harm
+   to a vulnerable person.
+4. "Doesn't understand me / no non-verbal cues" → EMPATHY, unless framed as missing a
+   crisis → SAFETY.
+5. "Won't keep my data safe because it isn't a trained professional" → ACCOUNTABILITY when
+   the lack of training is the causal core; PRIVACY when the data risk is foregrounded.
+
+Worked examples:
+Response: "It's a cheaper option but I worry it could reinforce a vulnerable person's worst thoughts."
+Markers: cheaper (benefit, passing); reinforce vulnerable worst thoughts (harm).
+Theme: SAFETY   (rule 2 — code the concern, not the benefit)
+
+Response: "My biggest worry is confidentiality, though I like that it feels less judgemental."
+Markers: biggest worry = confidentiality; less judgemental (benefit, passing).
+Theme: PRIVACY  (rules 1 and 2)
+
+Response: "They aren't regulated and haven't had the training a therapist has, so I wouldn't trust them."
+Markers: not regulated; no training.
+Theme: ACCOUNTABILITY
+
+Now code the response. First list the markers you see in one short line, then on a new
+line write "Theme: <NAME>". End with the theme name.
+
+Response:
+"""{response}"""

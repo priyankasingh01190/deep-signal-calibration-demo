@@ -1,0 +1,20 @@
+You are coding open-ended survey responses about people's expectations and concerns
+regarding AI mental-health chatbots. Assign the SINGLE DOMINANT theme — the concern the
+respondent gives the most weight to (states as their main concern, puts first, or spends
+the most words on). Many responses touch several themes; choose only the dominant one.
+
+Themes and definitions:
+- PRIVACY — data confidentiality/security: leaks, hacking, selling or storing personal data.
+- ACCURACY — the advice/information is wrong, made up, generic, inconsistent, or ineffective.
+- EMPATHY — cannot genuinely feel/understand or connect; impersonal; misses non-verbal cues;
+  people need human connection.
+- SAFETY — harm to vulnerable users: reinforcing harmful behaviour, missing/escalating a
+  crisis, triggering, unhealthy dependency, danger to life.
+- ACCOUNTABILITY — lacks clinical training, qualification, regulation, oversight, or authority.
+- ACCESS_BENEFIT — a POSITIVE point: cheap, free, 24/7, no waiting list, fast, non-judgemental.
+- OTHER — substantive content fitting none of the above.
+
+Respond with the theme name only.
+
+Response:
+"""{response}"""

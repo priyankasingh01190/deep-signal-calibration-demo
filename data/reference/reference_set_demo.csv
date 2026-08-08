@@ -1,0 +1,9 @@
+response_id,response,manual_theme,v1_theme,v2_theme,v3_theme
+demo01,I just worry my private messages could be leaked or sold on to advertisers.,PRIVACY,PRIVACY,PRIVACY,PRIVACY
+demo02,It often gives confident answers that turn out to be wrong or completely made up.,ACCURACY,ACCURACY,ACCURACY,ACCURACY
+demo03,"A bot can't actually feel anything, so it never truly understands what I'm going through.",EMPATHY,EMPATHY,EMPATHY,EMPATHY
+demo04,If someone is in a crisis it might just agree with them and make things worse.,SAFETY,ACCURACY,SAFETY,SAFETY
+demo05,These tools have no clinical training and no regulator holding them to account.,ACCOUNTABILITY,PRIVACY,ACCOUNTABILITY,ACCOUNTABILITY
+demo06,"It's free and available at 3am, which beats a six-month NHS waiting list.",ACCESS_BENEFIT,ACCESS_BENEFIT,ACCESS_BENEFIT,ACCESS_BENEFIT
+demo07,"It's cheap and always on, but I'd fear it reinforcing a vulnerable person's worst thoughts.",SAFETY,ACCESS_BENEFIT,SAFETY,SAFETY
+demo08,"My main concern is confidentiality, though I do like that it feels less judgemental.",PRIVACY,ACCESS_BENEFIT,PRIVACY,PRIVACY

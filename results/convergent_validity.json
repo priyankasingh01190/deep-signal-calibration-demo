@@ -1,0 +1,22 @@
+{
+  "emotional_connection_AI_vs_human": {
+    "comparison": "connection: human - AI",
+    "n_pairs": 110,
+    "mean_AI": 0.1551,
+    "mean_human": 0.4199,
+    "t": 5.648,
+    "df": 109,
+    "p": 1.31e-07,
+    "cohen_dz": 0.539
+  },
+  "concerns_AI_vs_human": {
+    "comparison": "concerns: human - AI",
+    "n_pairs": 109,
+    "mean_AI": 0.0717,
+    "mean_human": 0.2908,
+    "t": 3.271,
+    "df": 108,
+    "p": 0.00144,
+    "cohen_dz": 0.313
+  }
+}

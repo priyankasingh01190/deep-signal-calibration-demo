@@ -1,0 +1,69 @@
+{
+  "version": "v1_theme",
+  "n": 8,
+  "agreement": 0.5,
+  "n_agree": 4,
+  "cohen_kappa": 0.4074,
+  "macro_f1": 0.4444,
+  "weighted_f1": 0.3958,
+  "per_theme": {
+    "ACCESS_BENEFIT": {
+      "precision": 0.333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "support": 1
+    },
+    "ACCOUNTABILITY": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    "ACCURACY": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "support": 1
+    },
+    "EMPATHY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "PRIVACY": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "support": 2
+    },
+    "SAFETY": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    }
+  },
+  "disagreements": [
+    {
+      "response_id": "demo04",
+      "manual": "SAFETY",
+      "pred": "ACCURACY"
+    },
+    {
+      "response_id": "demo05",
+      "manual": "ACCOUNTABILITY",
+      "pred": "PRIVACY"
+    },
+    {
+      "response_id": "demo07",
+      "manual": "SAFETY",
+      "pred": "ACCESS_BENEFIT"
+    },
+    {
+      "response_id": "demo08",
+      "manual": "PRIVACY",
+      "pred": "ACCESS_BENEFIT"
+    }
+  ]
+}

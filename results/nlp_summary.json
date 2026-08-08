@@ -1,0 +1,454 @@
+{
+  "Q38_connected_AI": {
+    "n_responses": 108,
+    "total_words": 2019,
+    "unique_words": 734,
+    "top_words": [
+      [
+        "feel",
+        65
+      ],
+      [
+        "chatbot",
+        46
+      ],
+      [
+        "emotionally",
+        38
+      ],
+      [
+        "connected",
+        38
+      ],
+      [
+        "human",
+        35
+      ],
+      [
+        "health",
+        32
+      ],
+      [
+        "mental",
+        31
+      ],
+      [
+        "think",
+        27
+      ],
+      [
+        "more",
+        27
+      ],
+      [
+        "nothing",
+        26
+      ],
+      [
+        "emotional",
+        24
+      ],
+      [
+        "connection",
+        23
+      ],
+      [
+        "make",
+        21
+      ],
+      [
+        "like",
+        21
+      ],
+      [
+        "because",
+        20
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "emotionally connected",
+        33
+      ],
+      [
+        "mental health",
+        30
+      ],
+      [
+        "feel emotionally",
+        24
+      ],
+      [
+        "health chatbot",
+        19
+      ],
+      [
+        "make feel",
+        17
+      ],
+      [
+        "emotional connection",
+        16
+      ],
+      [
+        "connected mental",
+        13
+      ],
+      [
+        "connected chatbot",
+        7
+      ],
+      [
+        "chat bot",
+        5
+      ],
+      [
+        "feel connected",
+        5
+      ]
+    ],
+    "mean_compound": 0.1579,
+    "pct_positive": 51.9,
+    "pct_negative": 25.9,
+    "pct_neutral": 22.2
+  },
+  "Q39_connected_human": {
+    "n_responses": 110,
+    "total_words": 1874,
+    "unique_words": 653,
+    "top_words": [
+      [
+        "human",
+        58
+      ],
+      [
+        "feel",
+        48
+      ],
+      [
+        "therapist",
+        45
+      ],
+      [
+        "more",
+        45
+      ],
+      [
+        "connected",
+        27
+      ],
+      [
+        "person",
+        25
+      ],
+      [
+        "also",
+        24
+      ],
+      [
+        "able",
+        23
+      ],
+      [
+        "being",
+        22
+      ],
+      [
+        "connection",
+        20
+      ],
+      [
+        "emotionally",
+        18
+      ],
+      [
+        "emotional",
+        17
+      ],
+      [
+        "emotions",
+        17
+      ],
+      [
+        "about",
+        17
+      ],
+      [
+        "understanding",
+        16
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "human therapist",
+        24
+      ],
+      [
+        "emotionally connected",
+        17
+      ],
+      [
+        "feel more",
+        14
+      ],
+      [
+        "connected human",
+        13
+      ],
+      [
+        "body language",
+        9
+      ],
+      [
+        "emotional connection",
+        9
+      ],
+      [
+        "feel emotionally",
+        8
+      ],
+      [
+        "mental health",
+        7
+      ],
+      [
+        "more emotionally",
+        7
+      ],
+      [
+        "make feel",
+        6
+      ]
+    ],
+    "mean_compound": 0.4239,
+    "pct_positive": 73.6,
+    "pct_negative": 4.5,
+    "pct_neutral": 21.8
+  },
+  "Q40_concerns_AI": {
+    "n_responses": 109,
+    "total_words": 2702,
+    "unique_words": 991,
+    "top_words": [
+      [
+        "mental",
+        43
+      ],
+      [
+        "health",
+        42
+      ],
+      [
+        "advice",
+        41
+      ],
+      [
+        "chatbot",
+        38
+      ],
+      [
+        "information",
+        37
+      ],
+      [
+        "support",
+        37
+      ],
+      [
+        "may",
+        36
+      ],
+      [
+        "human",
+        33
+      ],
+      [
+        "people",
+        31
+      ],
+      [
+        "also",
+        30
+      ],
+      [
+        "help",
+        24
+      ],
+      [
+        "give",
+        24
+      ],
+      [
+        "data",
+        21
+      ],
+      [
+        "person",
+        20
+      ],
+      [
+        "personal",
+        18
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "mental health",
+        41
+      ],
+      [
+        "human therapist",
+        11
+      ],
+      [
+        "concerned about",
+        10
+      ],
+      [
+        "health chatbot",
+        9
+      ],
+      [
+        "health support",
+        7
+      ],
+      [
+        "rather than",
+        5
+      ],
+      [
+        "feel like",
+        5
+      ],
+      [
+        "personal information",
+        4
+      ],
+      [
+        "people may",
+        4
+      ],
+      [
+        "give advice",
+        4
+      ]
+    ],
+    "mean_compound": 0.0717,
+    "pct_positive": 49.5,
+    "pct_negative": 36.7,
+    "pct_neutral": 13.8
+  },
+  "Q41_concerns_human": {
+    "n_responses": 109,
+    "total_words": 2306,
+    "unique_words": 812,
+    "top_words": [
+      [
+        "human",
+        66
+      ],
+      [
+        "therapist",
+        65
+      ],
+      [
+        "about",
+        30
+      ],
+      [
+        "help",
+        28
+      ],
+      [
+        "also",
+        25
+      ],
+      [
+        "concerns",
+        25
+      ],
+      [
+        "feel",
+        25
+      ],
+      [
+        "more",
+        24
+      ],
+      [
+        "therapists",
+        23
+      ],
+      [
+        "support",
+        23
+      ],
+      [
+        "however",
+        22
+      ],
+      [
+        "expect",
+        22
+      ],
+      [
+        "may",
+        21
+      ],
+      [
+        "being",
+        17
+      ],
+      [
+        "know",
+        16
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "human therapist",
+        39
+      ],
+      [
+        "human therapists",
+        13
+      ],
+      [
+        "mental health",
+        12
+      ],
+      [
+        "concerns about",
+        6
+      ],
+      [
+        "expect human",
+        6
+      ],
+      [
+        "support human",
+        5
+      ],
+      [
+        "only concern",
+        5
+      ],
+      [
+        "being judged",
+        5
+      ],
+      [
+        "personal information",
+        4
+      ],
+      [
+        "waiting lists",
+        4
+      ]
+    ],
+    "mean_compound": 0.2832,
+    "pct_positive": 60.6,
+    "pct_negative": 21.1,
+    "pct_neutral": 18.3
+  }
+}
