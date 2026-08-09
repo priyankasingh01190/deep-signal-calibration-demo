@@ -24,3 +24,6 @@ results/runs/*reference_set_real*/
 
 # Real code sidecar (per-response IDs) — keep local
 data/reference/real_codes.json
+
+# Fill-in template with real response text — keep local
+data/reference/manual_codes_to_fill.csv
