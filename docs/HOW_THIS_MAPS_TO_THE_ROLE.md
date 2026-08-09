@@ -8,7 +8,8 @@ This project is a scaled-down, end-to-end instance of exactly that.
 |------------------------|--------------------------|
 | "Design and run structured tests every time we change a scoring prompt, marker or protocol — using a fixed reference set" | `data/reference/` (fixed set) + `prompts/v1..v3` + `src/run_experiment.py` |
 | "Keep a clean, versioned record linking every output to the exact model, prompt, and protocol version" | `results/runs/*/manifest.json` — sha256 of prompt + dataset, model, git commit, timestamp |
-| "Analyse which markers and signals are actually driving classifications" | per-theme precision/recall/F1 + confusion matrices in `evaluate.py` / `results/runs/*/confusion.csv` |
+| "Analyse which markers and signals are actually driving classifications" | per-theme precision/recall/F1 + confusion matrices in `evaluate.py`; **`marker_importance.py`** surfaces the distinctive lexical markers per theme (weighted log-odds + logistic-regression feature importance) → `results/marker_importance_*.md` |
+| "Support the statistical and regression work… feature importance" | `marker_importance.py` (multinomial logistic regression, weighted log-odds) + Cohen's κ + paired t-tests |
 | "Track and investigate unexpected shifts… a change we thought minor ends up changing someone's classification" | `flip_report()` → `results/flips_*.csv` + the watch-items in `prompts/CHANGELOG.md` |
 | "Support the statistical and regression work… move from expert-judgement-calibrated to data-calibrated" | Cohen's κ against manual codes + paired t-tests / effect sizes in `nlp_analysis.py` |
 | "Document reasoning and decisions as they're made, not reconstructed later" | `docs/DECISIONS.md` (dated log) + `prompts/CHANGELOG.md` |

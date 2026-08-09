@@ -65,6 +65,7 @@ src/
   build_reference_sets.py  builds the coded reference sets (real = git-ignored; demo = committed)
   code_with_llm.py      runs a prompt over responses (Anthropic API, or offline fixtures)
   evaluate.py           agreement, Cohen's κ, per-theme P/R/F1, confusion matrix, flip detector
+  marker_importance.py  which lexical markers drive each theme (weighted log-odds + logistic regression)
   nlp_analysis.py       VADER sentiment + frequency + paired convergent-validity tests
   run_experiment.py     orchestrates a run; writes a versioned manifest per (dataset,prompt)
 results/
