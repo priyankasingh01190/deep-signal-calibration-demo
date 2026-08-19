@@ -95,7 +95,7 @@ survey at `data/raw/survey_raw.csv`, which is **git-ignored** — see the govern
 
 ---
 
-## Data governance (read this — it's part of the point)
+## Data governance
 
 The raw participant free text was collected under GDPR for a specific dissertation with
 anonymous reference IDs. Re-using it to build a public portfolio piece is a new purpose, so:
