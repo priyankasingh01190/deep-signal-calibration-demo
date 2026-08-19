@@ -5,14 +5,10 @@ A small, self-contained demonstration of the discipline behind an LLM scoring pi
 whether a prompt change is an improvement, and flags when a "minor" change quietly moves a
 classification.**
 
-The worked example uses my own MSc dissertation data (a mixed-methods study of UK students'
+The worked example uses my own BSc dissertation data (a mixed-methods study of UK students'
 attitudes to AI vs human mental-health support, n≈110), but the harness is domain-agnostic:
 swap the reference set and the coding frame and it runs on any transcript-classification task.
 
-> Built as a portfolio piece for the **Deep Signal / The Hacking Games — Research Operations
-> Partner** role. It deliberately mirrors that job's core: *rigorous testing, clean
-> versioned records, and clear diagnostic evidence for someone else's clinical judgement to
-> rely on.* See [`docs/HOW_THIS_MAPS_TO_THE_ROLE.md`](docs/HOW_THIS_MAPS_TO_THE_ROLE.md).
 
 ---
 
